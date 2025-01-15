@@ -1,0 +1,11 @@
+{
+    "manifest_version" : 3, 
+    "name" : "img to 아하 그렇구나!",
+    "version":"0.1", 
+    "content_scripts" : [
+        {
+            "matches" : ["<all_urls>"], 
+            "js" : ["index.js"]
+        }
+    ]
+}
